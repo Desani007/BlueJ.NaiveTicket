@@ -1,0 +1,121 @@
+
+ Exercise 2.2
+ Value returned: 
+
+"Ticket price:500 cents. Your Total is 500"
+
+Exercise 2.3
+
+Do you notice anything strange about the machines behavior?
+Calculate is not effectively calculating the total
+
+What happens if you insert too much money into the machine - do you receive any refund? 
+No,
+
+What happens If you not insert enough then try to print a ticket 
+ The tickets are given regardless is the user has entered the cost of the ticket 
+
+Exercise 2.5
+ incriminateTicketNumber is incriminating wrong. It seems  as every time you call incriminateTicketNumber its incriminating +1  oppose to add 1 every time a new ticket object is created
+
+Exercise 2.6
+
+
+Student class will consist of  String name, Int grade, Long ID
+Lab class will consist of StringBeaker, String chemicals 
+
+
+Exercise 2.7
+Do you notice a change in the class diagram 
+Red lines across the class and test case
+
+What error message do you get when now press the compile button?
+Identifier Expected
+Illegal start of expression
+Invalid method declaration return type required
+
+Do you think the message clearly explains what's wrong?
+Yes
+
+Exercise 2.8 
+Is it possible tp leave he word public from the outer wrapper of the ticket machine class
+Yes 
+
+Exercise 2.9
+Fields 
+
+int price
+int balance 
+int total 
+
+Constructor 
+TicketMachine ( int ticketCost){
+Price =ticketCost 
+Balance = 0;
+Total =0;
+}
+
+Methods
+getPrice(), getBalance(), insertMoney (int amount), printTicket()
+
+Exercise 2.10
+ 
+Do you notice any features of the constructor that make it significantly different from the other methods 
+
+Same name as the class
+
+Exercise 2.11
+What do you think is the type if each of the following fields
+
+ int, Student, Server 
+
+Exercise  2.12
+What are the names of the following fields?
+ Alive, tutor, game
+
+Exercise 2.13
+Does it matter which order the three words appear in?
+Yes
+
+
+Edit TicketMachine 
+Does the appearance of the class diagram after each change give you a close as to whether or not other orders are possible?
+Yes the class diagram changes with red lines on the class and test case
+
+Check by pressing the compile button to see if there is an error message?
+Cannot find symbol. 
+
+Exercise 2.14
+Is it always necessary to have a semicolon at the end of a deli declaration?
+Yes it tells the compiler that statement is ended
+
+
+Exercise 2.15
+Write Ain dull the declaration for a field of type int whose name is status
+ 
+public int status
+
+Exercise 2.16
+To what class does the following constructor belong to 
+
+Student class
+
+Exercise 2.17
+How many parameters does the following constructor have and what are their types?
+2, String double 
+
+Exercise 2.18
+Can you guess what types some of the book class's fields might be? 
+String nameodBook, String author, Student owner
+
+
+Can you assume anything about the name of the fields?
+The Student might be the owner of Book so that means it might have a fields of type Student in the Book class 
+
+
+
+
+
+ 
+
+
